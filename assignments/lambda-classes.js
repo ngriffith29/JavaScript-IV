@@ -113,7 +113,23 @@ const fred = new instructor({
 
 
 
+console.log()
 
+console.log()
+
+console.log()
+
+console.log()
+
+console.log()
+
+console.log()
+
+console.log()
+
+console.log()
+
+console.log()
 
  
 
