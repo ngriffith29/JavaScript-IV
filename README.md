@@ -97,7 +97,7 @@ const fred = new Instructor({
   * ``. i.e. an array of the student's favorite subjects ['Html', 'CSS', 'JavaScript']
 * Student has the following methods:
   * `` a method that logs out all of the student's favoriteSubjects one by one.
-  * `` a method that receives a subject as an argument and logs out that the `student.name has submitted a PR for {subject}`
+  * `` a method that receives a sub'ject as an argument and logs out that the `student.name has submitted a PR for {subject}`
   * `` similar to PRAssignment but logs out `student.name has begun sprint challenge on {subject}`
 
 #### Project Manager

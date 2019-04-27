@@ -54,7 +54,6 @@ class student extends person {
     sprintChallenge(subject){
         return `${this.name} has begun a sprint challenge on ${subject}`
     }
-
     }
 
 
@@ -63,7 +62,6 @@ class student extends person {
             super(props)
             this.gradClassName = props.gradClassName
             this.favInstructor = props.favInstructor
-
         }
 
         standUp(slackChannel){
@@ -113,11 +111,11 @@ const fred = new instructor({
 
 
 
-console.log()
+console.log(fred.name)
 
-console.log()
+console.log(fred.demo('history'))
 
-console.log()
+console.log(student1.name)
 
 console.log()
 

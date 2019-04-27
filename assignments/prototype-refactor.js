@@ -12,16 +12,13 @@ Prototype Refactor
 
 class GameObject {
     constructor(attributes){
-       
         this.createdAt = attributes.createdAt;
         this.name = attributes.name;
         this.dimensions = attributes.dimensions; 
-
     }
     destroy(){
         return `${this.name} wast removed from game`
     }
-
 }
 
 
