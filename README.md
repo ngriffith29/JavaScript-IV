@@ -6,12 +6,12 @@ This challenge focuses on classes in JavaScript using the new `class` keyword.
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [ x ] Create a forked copy of this project.
+* [ x ] Add your project manager as collaborator on Github.
+* [ x ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [ x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [ x ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [ x ] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
@@ -92,21 +92,21 @@ const fred = new Instructor({
 * Now we need some students!
 * Student uses the same attributes that have been set up by Person
 * Student has the following unique props:
-  * `previousBackground` i.e. what the Student used to do before Lambda School
-  * `className` i.e. CS132
-  * `favSubjects`. i.e. an array of the student's favorite subjects ['Html', 'CSS', 'JavaScript']
+  * `` i.e. what the Student used to do before Lambda School
+  * `` i.e. CS132
+  * ``. i.e. an array of the student's favorite subjects ['Html', 'CSS', 'JavaScript']
 * Student has the following methods:
-  * `listsSubjects` a method that logs out all of the student's favoriteSubjects one by one.
-  * `PRAssignment` a method that receives a subject as an argument and logs out that the `student.name has submitted a PR for {subject}`
-  * `sprintChallenge` similar to PRAssignment but logs out `student.name has begun sprint challenge on {subject}`
+  * `` a method that logs out all of the student's favoriteSubjects one by one.
+  * `` a method that receives a subject as an argument and logs out that the `student.name has submitted a PR for {subject}`
+  * `` similar to PRAssignment but logs out `student.name has begun sprint challenge on {subject}`
 
 #### Project Manager
 
 * Now that we have instructors and students, we'd be nowhere without our PM's
 * ProjectManagers are extensions of Instructors
 * ProjectManagers have the following unique props:
-  * `gradClassName`: i.e. CS1
-  * `favInstructor`: i.e. Sean
+  * ``: i.e. CS1
+  * ``: i.e. Sean
 * ProjectManagers have the following Methods:
   * `standUp` a method that takes in a slack channel and logs `{name} announces to {channel}, @channel standy times!​​​​​
   * `debugsCode` a method that takes in a student object and a subject and logs out `{name} debugs {student.name}'s code on {subject}`
